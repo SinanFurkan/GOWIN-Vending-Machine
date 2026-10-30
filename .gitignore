@@ -1,0 +1,11 @@
+# Gowin generated files
+impl/
+syn/
+*.fs
+*.rao
+*.rpt
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+// Tang Nano 9K pin eşlemesi: 27 MHz saat, iki buton ve dört onboard LED.
+IO_LOC  "clk"                52;
+IO_PORT "clk"                PULL_MODE=UP;
+
+IO_LOC  "btn_coin_n"         3;
+IO_PORT "btn_coin_n"         PULL_MODE=UP;
+
+IO_LOC  "btn_buy50_n"        4;
+IO_PORT "btn_buy50_n"        PULL_MODE=UP;
+
+IO_LOC  "led_bought30_n"     10;
+IO_PORT "led_bought30_n"     DRIVE=8;
+
+IO_LOC  "led_bought50_n"     11;
+IO_PORT "led_bought50_n"     DRIVE=8;
+
+IO_LOC  "led_insufficient_n" 13;
+IO_PORT "led_insufficient_n" DRIVE=8;
+
+IO_LOC  "led_reached50_n"   14;
+IO_PORT "led_reached50_n"   DRIVE=8;
